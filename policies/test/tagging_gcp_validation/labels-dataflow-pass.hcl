@@ -1,10 +1,17 @@
+module "tfplan-functions" {
+  source = "../../../common-functions/tfplan-functions/tfplan-functions.sentinel"
+}
+
 mock "tfplan/v2" {
   module {
-    source = "mock-tfplan-v2.sentinel"
+    source = "mock-tfplan-dataflow-labels-pass.sentinel"
   }
 }
-module "tfplan-functions" {
-    source = "../common-functions/tfplan-functions/tfplan-functions.sentinel"
+
+test {
+  rules = {
+    main = true
+  }
 }
 
 param "gcp_region" {

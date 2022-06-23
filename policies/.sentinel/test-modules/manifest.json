@@ -1,0 +1,22 @@
+{
+	"records": [
+		{
+			"key": "test/tagging_gcp_validation/labels-dataflow-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/GAURAV/23June2022/dataflow-labels/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/labels-dataflow-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/GAURAV/23June2022/dataflow-labels/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/labels-dataflow-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/GAURAV/23June2022/dataflow-labels/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		}
+	]
+}
